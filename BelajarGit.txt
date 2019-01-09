@@ -1,0 +1,50 @@
+
+GIT
+
+#untuk mencari tahu versi git kita
+git --version
+#
+git config --list
+#Untuk memasukkan akun kita ke dalam list di git
+git config --global user.name "Nofita Ika"
+git config --global user.email nofitaikau@gmail.com
+#Cek apakah kita sudah terdaftar danmasuk list
+git config --list
+
+GitHub
+-Masuk ke akun Github
+-Bikin Repository (klik bagian repositiries-klik New-Kasih nama-centang Readme-Create)
+
+#
+ls -ls
+
+# Masuk ke directory yang dicari
+cd Documents/
+# Buat folder
+mkdir workspace
+# masuk ke Folder Workspace
+cs Wo (TAb aja nanti dia kelaur sendiri)
+
+# Hubungkan dengan github
+git clone https://github.com/Nofitaika/Belajar-Git.git
+
+git branch -a
+git checkout -b topic-brand
+//Hacking/rubahcode
+
+git add .
+git commit -m "commit log"
+git push
+git pull (untuk mengupdate aplikasi di lokal kita dengan yang terbaru dari github)
+
+Selama di belakang direktori kita ada (master) berarti kita bekerja di dalam master
+
+# Bikin Branch (ini ada di dalam repository tapi cuma sementara)
+git branch tester (tester ini adalah nama, bisa diubah ubah sendiri)
+---> nah nanti di sini kita bisa edit dan push apa aja tanpa takut konflik dengan orang lain
+
+# Masuk ke Branch 
+get checkout tester(ingat 'tester' itu hanya nama)
+
+# Menggabungkan Data yang ada di Branch dengan Master
+git merge (catatan : checkout nya harus ke yang mau 
